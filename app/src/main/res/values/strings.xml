@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MobiOptionsGuideApp</string>
+
+    <string name="native_ad_unit_id">a4db16bb9d76e5c7</string>
+    <string name="interstitial_ad_unit_id">eea43174994f3677</string>
+
+    <string name="Tip1">When you start the game, you can actually choose Pikachu as your starter Pokémon by simply ignoring the initial three Pokémon that appear and keep walking. After you ignore them four times, Pikachu will appear as a starter option.\n\nPokémon, short for "Pocket Monsters," are creatures that inhabit the world of the Pokémon games. They can be caught using Poké Balls and trained to battle other Pokémon.\n\nGyms and Battles: In the Pokémon world, Trainers take their Pokémon to Gyms to battle Gym Leaders. Winning battles can earn badges, which are required to enter the Pokémon League and become the Champion.</string>
+    <string name="Tip2">Lure Modules can be set at PokéStops to attract Pokémon to that location for 30 minutes. This effect is shared with other players, so look for PokéStops with pink petals around them - it means a Lure Module is active.\n\nPokémon Types: There are 18 different Pokémon types, including Fire, Water, Grass, Electric, and Psychic. Each type has its strengths and weaknesses, making the choice of Pokémon in a battle strategic.</string>
+    <string name="Tip3">Different Pokémon types are more likely to be found in certain locations. Water-types are found near water, Grass-types in parks, etc. Pay attention to the real-world location to find specific types of Pokémon.\n\nTrading and Evolution: Many Pokémon evolve into a stronger form. Some Pokémon even require being traded with another player to evolve. Understanding the evolution paths can greatly enhance your strategy.</string>
+    <string name="Tip4">Pokémon GO can be a battery-intensive app. Use the Battery Saver mode in the games settings to help conserve energy. Also, turning off AR mode can help save battery life.\n\nGyms and Battles: In the Pokémon world, Trainers take their Pokémon to Gyms to battle Gym Leaders. Winning battles can earn badges, which are required to enter the Pokémon League and become the Champion.</string>
+    <string name="Tip5">Catching duplicates of the same Pokémon helps you collect Candy for that species, which can be used to evolve or power up your Pokémon. Evolving also gives you a large XP boost.</string>
+    <string name="Tip6">Lucky Eggs double your XP gain for 30 minutes. Use them in conjunction with other XP-boosting strategies, such as using a Lure Module or evolving multiple Pokémon, to maximize your XP gains.</string>
+    <string name="Tip7">Once you reach level 5, you can join one of three teams and participate in Gym Battles. Defending or attacking Gyms with teammates can be a fun way to engage with other players.</string>
+    <string name="Tip8">Be sure to play daily, as the game offers daily bonuses for catching Pokémon and visiting PokéStops. Streak bonuses for consecutive daily play can add up quickly!</string>
+    <string name="Tip9">The in-game weather correlates with the real-world weather and affects which Pokémon youre more likely to encounter. For example, Water-types are more common on rainy days.</string>
+    <string name="Tip10">Always be aware of your surroundings when playing Pokémon GO, especially near roads and other potentially dangerous areas. Follow local laws, and don’t trespass on private property. Enjoy the game, but always prioritize safety and courtesy.</string>
+
+    <string name="Title_1">Pokémon: Gotta Catch \'Em All!</string>
+    <string name="Title_2">Join Team Mystic, Valor, or Instinct!</string>
+    <string name="Title_3">Pokémon: Gotta Catch \'Em All!</string>
+    <string name="Title_4">Battles, Friendship, Adventure Await.</string>
+    <string name="Title_5">Pokémon: Gotta Catch \'Em All!</string>
+    <string name="Title_6">Pokémon: Battle Frontier Awaits!</string>
+    <string name="Title_7">Unleash the Power of Mega Evolution!</string>
+    <string name="Title_8">Train On: Rise to@ the Challenge!</string>
+    <string name="Title_9">Explore New Regions and Pokémon!</string>
+    <string name="Title_10">Join the Pokémon League Today!</string>
+
+</resources>

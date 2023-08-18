@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".GridViewButton"
+    android:padding="16dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/mainTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/acme"
+                android:text=" Recommended for you"
+                android:textColor="#E25C5E"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/star"/>
+
+
+            <!-- Buttons 1 and 2 -->
+
+    <LinearLayout
+        android:id="@+id/firstbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:background="@drawable/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                 /> <!-- Replace with your button text -->
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/Title_1"
+                android:textColor="#000000"
+                android:textSize="16sp" /> <!-- Replace with your title -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:background="@drawable/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                 /> <!-- Replace with your button text -->
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/Title_2"
+                android:textColor="#000000" /> <!-- Replace with your title -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+            <FrameLayout
+                android:layout_below="@+id/firstbuttons"
+                android:layout_marginTop="50dp"
+                android:id="@+id/native_ad_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/secondbuttons"
+                android:gravity="center"/>
+
+            <!-- Buttons 3 and 4 -->
+
+    <LinearLayout
+        android:id="@+id/secondbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button3"
+                android:background="@drawable/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                /> <!-- Replace with your button text -->
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/acme"
+                android:text="@string/Title_3"
+                android:textColor="#000000"
+                android:textSize="16sp" /> <!-- Replace with your title -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button4"
+                android:background="@drawable/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                /> <!-- Replace with your button text -->
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/Title_4"
+                android:textColor="#000000" /> <!-- Replace with your title -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+            <!-- Buttons 5 and 6 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button5"
+                android:background="@drawable/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                /> <!-- Replace with your button text -->
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/Title_5"
+                android:textColor="#000000"
+                android:textSize="16sp" /> <!-- Replace with your title -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button6"
+                android:background="@drawable/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                /> <!-- Replace with your button text -->
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/Title_6"
+                android:textColor="#000000" /> <!-- Replace with your title -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+            <!-- Buttons 7 and 8 -->
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:background="@drawable/btn7"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/acme"
+                        android:text="@string/Title_7"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:background="@drawable/btn8"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/title8"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/acme"
+                        android:text="@string/Title_8"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Buttons 9 and 10 -->
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:background="@drawable/btn9"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/title9"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/acme"
+                        android:text="@string/Title_9"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:background="@drawable/btn10"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/title10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/acme"
+                        android:text="@string/Title_10"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
